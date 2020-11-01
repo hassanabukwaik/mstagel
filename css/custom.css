@@ -86,3 +86,23 @@ li {
   font-weight: bold;
   margin-top: 0.5rem;  
 }
+
+
+.lock-icon{
+  width: 10%;
+  text-align: center;
+  color: #191970;
+}
+.lock{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #191970;
+
+}
+.lock .col-md-5 .form-control {
+  width: 60%;
+  margin: 0 auto;
+}
