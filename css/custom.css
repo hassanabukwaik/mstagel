@@ -1,0 +1,88 @@
+li {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.navbar .nav .input-group .form-control {
+  border: 0px;
+  background-color: #191970;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  width: 15rem;
+}
+
+.navbar .nav .input-group .input-group-prepend .input-group-text {
+  background-color: white;
+  color: white;
+  border: 0px;
+  background-color: #191970;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.navbar .nav .input-group .input-group-prepend .border-left-white {
+  border-left: 1px solid white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.navbar .nav .input-group .input-group-prepend .border-right-white {
+  border-right: 1px solid white;
+}
+
+.navbar .nav{
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar .nav .nav-item{
+  margin: 0 1rem;
+}
+
+.navbar .nav .search-input >  div{
+  vertical-align: middle;
+  margin-top: 1rem;
+}
+
+.navbar .navbar-brand{
+  color:white;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.contianer{
+  margin-top: 4rem;
+}
+.contianer h2 {
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contianer .col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 77%;
+  margin: 0 auto;
+}
+
+.contianer .col h5{
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #9995cc;
+}
+
+.contianer .col-md-5 input{
+  border: 0;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  margin-top: 0.5rem;
+}
+.contianer .col .col-md-5 .form-group .form-check{
+  font-weight: bold;
+  margin-top: 0.5rem;  
+}
