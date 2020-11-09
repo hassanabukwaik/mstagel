@@ -640,3 +640,39 @@ margin-top: -12px;
   margin: 1rem;
   padding: 1rem;
 }
+.cont1{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-bottom: 0.3rem;
+}
+.count1_data button{
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.3rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 12rem;
+  padding: 0;
+}
+
+.count1_data button p {
+  margin-top: 0.8rem;
+}
+.count1_dat{
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem;
+  width: 24.3rem;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.count1_dat p {
+  margin-top: 0.8rem;
+  
+}
+.count1_dat span{
+  color: gold;
+}
