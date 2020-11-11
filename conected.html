@@ -49,6 +49,7 @@
         </ul>
     </nav>
 
+ 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -88,10 +89,31 @@
             </div>
             <div class="icon">
                 <div class="total-icon1">
-                    <i class="fas fa-trash" style="color: #191970;"></i>
+                    <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal">
+                        
+                        <i class="fas fa-trash" style="color: #191970;"></i>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                         
+                            <div class="modal-body">
+                            <h6 style="color: red; text-align: center; height: 50px; margin-top: 2rem;" >هل انت متاكد من حذف هذا الاعلان</h6>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger">حذف</button>
+                              <button type="button" class="btn btn-light"data-dismiss="modal">تراجع</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
+
                 <div class="total-icon2">
-                    <i class="fas fa-pen" style="color: #191970;"></i>
+                    <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal">
+                        
+                        <i class="fas fa-pen" style="color: #191970;"></i>
+                    </button>
 
                 </div>
 
