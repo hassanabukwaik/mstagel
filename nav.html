@@ -22,7 +22,8 @@
     />
   </head>
   <body>
-    <div class="sidbar">
+    <div class="sidbar-background" style="display: none;"></div>
+    <div class="sidbar" style="display: none;">
       <div class="sidbar-body">
         <div class="my-img">
           <img src="images/testimonials-1.jpg" alt="suni" />
@@ -346,7 +347,14 @@
     </div>
 
     <nav class="navbar navbar-light" style="background-color: #191970">
-      <a class="navbar-brand justify-content-start" href="#">مستعجل</a>
+      <div class="open-sidebar">
+        <div class="sidbar-spans">
+        <span class="span"></span>
+        <span class="span"></span>
+        <span class="span"></span>
+      </div>
+        <a class="navbar-brand justify-content-start" href="#">مستعجل</a>
+      </div>
 
       <ul class="nav justify-content-end">
         <li class="nav-item active search-input">
@@ -396,6 +404,7 @@
       </ul>
     </nav>
 
+    <script src="./bootstrap.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
